@@ -1,0 +1,38 @@
+:root {
+    /* Color scheme #11 Lively and Inviting */
+    --myred: #e7717d;
+    --mygrey: #c2c1d0;
+    --mybeige: #C2B9B0;
+    --mybrown: #7e685a;
+    --mygreen:#afd275;
+    --mywhite: #FAEBD7;
+    --myblack: #000;
+}
+
+
+.main-container{
+    background: var(--mybeige); 
+    border: 2px solid var(--myblack);
+    height: 50%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mycol1 {
+    background: var(--myred);
+    height: 50%;
+}
+
+.mycol2 {
+    background: var(--mybrown);
+    height: 100px;
+}
+
+.mycol3 {
+    background: var(--mygreen);
+    height: 25px;
+}
+
+h1 {
+    color: var(--myred);
+}
